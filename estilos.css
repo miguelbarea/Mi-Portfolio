@@ -3,6 +3,10 @@
     --black: #000;
 }
 
+body {
+    font-family: 'Space Mono', monospace;
+}
+
 nav {
     display: flex;
     justify-content: right;
