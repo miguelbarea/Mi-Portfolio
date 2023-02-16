@@ -30,3 +30,7 @@ nav {
 .navbar a {
     text-decoration: none;
 }
+
+.navbar ul :hover{
+    font-weight: 900;
+  } 
