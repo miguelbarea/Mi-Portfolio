@@ -7,11 +7,13 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
+/*Barra de Navegación*/
+
 nav {
     display: flex;
     justify-content: right;
     padding: 0 24px;
-    border-bottom: 1px solid var(--very-light-pink);
+    border-bottom: 1px solid var(--black);
   }
 
 .navbar ul {
@@ -29,8 +31,27 @@ nav {
 
 .navbar a {
     text-decoration: none;
+    color: var(--black);
 }
 
 .navbar ul :hover{
     font-weight: 900;
   } 
+
+/*Cabecera*/
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+/*Secciones*/
+
+.section {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 2% 4% 2% 4%;
+}
+
